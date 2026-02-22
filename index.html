@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Azure Static Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Azure Static Website</h1>
+        <h2>AJ – ISOM 210</h2>
+    </header>
+
+    <section class="card">
+        <h3>What is Cloud Computing?</h3>
+        <p>
+            Cloud computing delivers computing resources such as storage,
+            servers, and applications over the internet instead of running
+            them on local machines. It allows organizations to scale resources
+            on demand and reduce infrastructure costs.
+        </p>
+    </section>
+
+    <section class="card">
+        <h3>What I Built</h3>
+        <ul>
+            <li>A responsive static website</li>
+            <li>External CSS styling</li>
+            <li>JavaScript interaction for dynamic date and time</li>
+        </ul>
+    </section>
+
+    <section class="card center">
+        <button onclick="showDate()">Test JavaScript</button>
+        <p id="dateOutput"></p>
+    </section>
+
+    <footer>
+        <p>Deployed on Azure Static Web Apps</p>
+        <p id="year"></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
